@@ -1,0 +1,14 @@
+workspace = { members = ["proc"] }
+
+[package]
+name = "shader-data"
+authors = []
+version = "0.0.0"
+edition = "2021"
+
+[features]
+codegen = []
+glsl = []
+hlsl = []
+mtl = []
+wgsl = []
